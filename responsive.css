@@ -1,0 +1,52 @@
+@media (max-width: 700px) {
+  main {
+    padding: 10px 2vw 24px 2vw;
+    max-width: 98vw;
+    border-radius: 0;
+    margin: 0;
+  }
+  .intro h1 {
+    font-size: 1.4rem;
+  }
+  .avatar {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .hobbies h2, .social-links h2 {
+    font-size: 1.05rem;
+    margin-bottom: 10px;
+  }
+  .hobby-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .hobby {
+    width: 92vw;
+    max-width: 320px;
+    padding: 14px 8px 10px 8px;
+  }
+  .hobby img {
+    width: 38px;
+    height: 38px;
+    margin-bottom: 6px;
+  }
+  .hobby span {
+    font-size: 0.98rem;
+  }
+  .social-links ul {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .social-links a {
+    padding: 8px 10px;
+    font-size: 1rem;
+    gap: 8px;
+  }
+  .social-links a img {
+    width: 28px;
+    height: 28px;
+  }
+}
