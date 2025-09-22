@@ -38,15 +38,28 @@
   .social-links ul {
     flex-direction: column;
     gap: 10px;
-    align-items: center;
+    align-items: stretch;
+  }
+  .social-links li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
   .social-links a {
     padding: 8px 10px;
     font-size: 1rem;
-    gap: 8px;
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 320px;
+    margin: 0 auto;
   }
   .social-links a img {
     width: 28px;
     height: 28px;
+    flex-shrink: 0;
   }
 }
